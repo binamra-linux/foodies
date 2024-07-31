@@ -67,6 +67,7 @@ a:hover {
 
 .btn-color:hover {
   background-color: var(--brown);
+  color: var(--secondary);
 }
 
 h2 {
@@ -143,5 +144,18 @@ h3 {
   border: 1px solid var(--grey);
   width: 45%;
   margin: 1%;
+  padding: 1%;
+  float: left;
+  background-color: var(--secondary);
+}
+
+.food-menu {
+  background-color: var(--primary);
+}
+
+.food-menu-img {
+  width: 20%;
   float: left;
 }
+
+/*1:37:00*/
