@@ -1,0 +1,20 @@
+/**/
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "Lato";
+}
+:root {
+  --primary: #ef5a6f;
+  --secondary: #fff1db;
+  --brown: #d4bdac;
+  --grey: #536493;
+}
+
+.container {
+  border: 1px solid var(--primary);
+  width: 80%;
+  margin: 0 auto; /*Centering the container items*/
+  padding: 1%;
+}
