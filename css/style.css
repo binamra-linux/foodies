@@ -1,4 +1,4 @@
-/**/
+/*CSS For All*/
 
 * {
   margin: 0 0;
@@ -17,4 +17,47 @@
   width: 80%;
   margin: 0 auto; /*Centering the container items*/
   padding: 1%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+a {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brown);
+}
+/*Nav Bar*/
+
+.logo {
+  width: 10%;
+  border: 1px solid var(--primary);
+  float: left;
+}
+
+.menu {
+  line-height: 60px;
+}
+
+.img-res {
+  width: 100%;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: 600;
 }
