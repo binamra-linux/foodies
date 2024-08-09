@@ -30,6 +30,43 @@
   clear: both;
 }
 
+.table-full {
+  width: 100%;
+}
+
+table tr th {
+  border-bottom: 1px solid var(--green);
+  padding: 1%;
+  text-align: left;
+}
+
+table tr td {
+  padding: 1%;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  padding: 1%;
+  color: var(--green);
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btn-secondary {
+  background-color: var(--green);
+  padding: 1%;
+  color: var(--primary);
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btn-danger {
+  background-color: var(--primary);
+  padding: 1%;
+  color: var(--green);
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 /*Menu*/
 .menu {
   border-bottom: 1px solid var(--green);
